@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+    <title>Form</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h2>Please fill the form</h2>
+        <form>
+          <label for="Name">
+            Your Name:
+            <input id="Name" type="text" placeholder="your name" />
+          </label>
+          <label for="email"
+            >Your Email:
+            <input id="email" type="text" placeholder="Your email" />
+          </label>
+          <label for="phone"
+            >Yor Phone:
+            <input id="phone" type="text" placeholder="Your phone number" />
+          </label>
+          <fieldset>
+            <legend>pick one</legend>
+            <label for="Samsung">
+              <input type="radio" name="Mobile" id="Samsung" />Samsung
+            </label>
+            <label for="Sony">
+              <input type="radio" name="Mobile" id="Sony" />Sony
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>pick one</legend>
+            <label for="Samsung">
+              <input type="checkbox" name="Mobile" id="Samsung" />Samsung
+            </label>
+            <label for="Sony">
+                <input type="checkbox" name="Mobile" id="Sony">Sony
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+          </fieldset>
+          <input type="reset" value="Reset">
+         <input type="submit" value="submit">
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
